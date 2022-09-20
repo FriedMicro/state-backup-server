@@ -4,7 +4,7 @@ import config from "./config.js";
 
 const app = new Koa();
 
-const state = {};
+let state = {};
 
 app.use(bodyParser());
 
